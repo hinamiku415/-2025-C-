@@ -1,0 +1,65 @@
+# ==============================================================================
+# Git Ignore Configuration for Vision_Motion_Target_System
+# (Keil MDK + Python 3 + VS Code + Embedded Artifacts)
+# ==============================================================================
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Keil MDK Intermediate & Build Files ---
+*.o
+*.d
+*.crf
+*.axf
+*.lnp
+*.sct
+*.map
+*.htm
+*.dep
+*.build_log.htm
+*.uvguix.*
+*.uvoptx.bak
+*.uvprojx.bak
+Listings/
+Objects/
+DebugConfig/
+JLinkLog.txt
+JLinkSettings.ini
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+.eide/
+.kiro/
+.clangd/
+*.code-workspace
+
+# --- OS Specific Temporary Files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak
+~$*.docx

@@ -1,0 +1,9 @@
+# Pi 部署依赖
+# 树莓派环境已通过 apt 和 pip 配置完毕：
+# 1. sudo apt install -y python3-opencv python3-picamera2
+# 2. pip install ai-edge-litert pyserial --break-system-packages
+
+ai-edge-litert
+numpy
+pyserial
+
